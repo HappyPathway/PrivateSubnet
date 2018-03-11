@@ -6,3 +6,7 @@ variable "public_ip" {
 variable "subnet_cidr" {
   default = "10.0.2.0/24"
 }
+
+variable "company_name" {}
+variable "org_name" {}
+variable "service_name" {} 
