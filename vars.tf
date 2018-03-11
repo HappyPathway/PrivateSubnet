@@ -9,4 +9,4 @@ variable "subnet_cidr" {
 
 variable "company_name" {}
 variable "org_name" {}
-variable "service_name" {} 
+variable "service_name" {}
