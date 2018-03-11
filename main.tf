@@ -15,11 +15,3 @@ output "subnet_id" {
 output "subnet_cidr" {
   value = "${var.subnet_cidr}"
 }
-
-output "subnet_id" {
-  value = "${aws_subnet.subnet.id}"
-}
-
-output "subnet_cidr" {
-  value = "${var.subnet_cidr}"
-}
